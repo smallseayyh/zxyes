@@ -1,0 +1,1 @@
+<?php echo jinsom_get_option('jinsom_404_page_html');?>

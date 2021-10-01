@@ -1,0 +1,25 @@
+p {
+    line-height: 1.7;
+    display: block;
+    min-height: 27px;
+    word-break: break-word;
+    margin: 0;
+}
+h2,h3,h4,h5,h6{
+    margin: 0;
+}
+ul,ol{
+    margin: 1em 0 !important;
+    padding-left: 40px !important;
+    box-sizing: border-box;
+}
+blockquote {
+    padding-left: 1em;
+    margin: 1em 0;
+    color: #6b7a8c;
+    border-left: 4px solid #cfd8e6;
+}
+iframe {
+    background-color: #ddd;
+    width: 60%;
+}

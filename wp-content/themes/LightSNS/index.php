@@ -1,0 +1,11 @@
+<?php 
+$require_url=get_template_directory();
+if(!wp_is_mobile()){
+if(get_option('LightSNS_Module_pc/home')){
+require($_SERVER['DOCUMENT_ROOT'].'/wp-content/module/pc/home/index.php');
+}else{
+require($require_url.'/page/layout-sns.php');
+}
+}else{
+require($require_url.'/mobile/index.php');	
+}

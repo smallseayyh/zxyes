@@ -1,0 +1,2 @@
+请勿将语言包上传到这个目录，这个目录仅仅让poedit软件提取翻译文字用的。
+主题的翻译文件路径在 ：/wp-content/languages/themes/
